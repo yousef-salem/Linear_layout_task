@@ -1,6 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:layout_width="81dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/pic_shape"
+        android:clipToOutline="true"
+        android:src="@drawable/face" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ahmed hassan"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Engineer"
+            android:textColor="@color/black"
+
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:drawableStart="@drawable/vecteezy_location_pin_icon_vector_pin_location_icon_design_8089664__converted_"
+            android:text="UK"
+            android:textSize="16sp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(150 Reviews) "
+        android:layout_marginEnd="3dp"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/star"
+        android:text="4.5"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:drawablePadding="3dp"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+</LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="3 hr"
+            android:textColor="@color/white"
+            android:background="@drawable/hours_shape"
+            android:textSize="14sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Russian"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 Days ago"
+
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
